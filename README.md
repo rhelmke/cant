@@ -1,5 +1,7 @@
 # CAN't
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/rhelmke/cant)](https://goreportcard.com/report/github.com/rhelmke/cant)
+
 **CAN't** is a multithreaded privacy proxy server for [ISO-11898](https://www.iso.org/standard/63648.html) Controller Area Networks that is mainly targeted at [ISOBUS](https://www.iso.org/standard/57556.html) applications.
 Its purpose is to selectively block, perturbate, or round privacy sensitive data transmitted via CAN. The software can easily be configured using an HTML5 web interface.
 Implementation details and the motivation behind this project can be found in:
