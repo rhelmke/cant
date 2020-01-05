@@ -1,0 +1,3 @@
+[submodule "external/cant-ui"]
+	path = external/cant-ui
+	url = https://github.com/rhelmke/cant-ui.git
