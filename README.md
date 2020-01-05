@@ -58,16 +58,12 @@ Flags:
 Use "cant [command] --help" for more information about a command.
 ```
 
-JB: Unterschied master, receiver, sender unklar. Wo erklären?
-
 ```plain
 Usage:
   cant run [command]
 
 Available Commands:
-  master      run the master component # the proxy server itself
-  receiver    run the receiver component # part of the evaluation done in BA
-  sender      run the sender component # part of the evaluation done in BA
+  proxy       run the proxy component
 
 Flags:
   -h, --help   help for run
@@ -131,7 +127,7 @@ The [VDMA](https://www.isobus.net/isobus/) maintains a growing list of known PGN
 ## Run the proxy
 
 ```bash
-./cant run master -m filter
+./cant run proxy
 ```
 
 The proxy will expose its webinterface to a port (default: `8080`) configured during setup.
